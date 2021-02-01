@@ -2397,7 +2397,6 @@ spec:
         securityContext:
           allowPrivilegeEscalation: false
           readOnlyRootFilesystem: true
-          runAsUser: 100
         volumeMounts:
         - mountPath: /tmp
           name: temp
@@ -2473,7 +2472,6 @@ spec:
         securityContext:
           allowPrivilegeEscalation: false
           readOnlyRootFilesystem: true
-          runAsUser: 100
         volumeMounts:
         - mountPath: /data
           name: data
